@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sawant Gorakh </title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/about.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="assets/images/GorakhPic.jpg"
+              alt="Gorakh Sawant"
+              width="90"
+              height="100%"
+              border-radius:
+              50%;
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Gorakh Sawant">Gorakh Sawant</h1>
+
+            <p class="title">Computer Science Student</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:gorakhsawant2090@gmail.com" class="contact-link"
+                  >gorakhsawant2090@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+919309824107" class="contact-link"
+                  >+91-9309824107</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <!-- <p class="contact-title">GitHub</p> -->
+
+                <a href="https://github.com/GorakhSawant" class="contact-link"
+                  >GitHub</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <!-- <p class="contact-title">Linked In</p> -->
+
+                <a
+                  href="https://www.linkedin.com/in/gorakhsawant/"
+                  class="contact-link"
+                  >LinkedIn</a
+                >
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+           
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <p></p>
+            <b style="font-size: 20px; color: aqua">&ltaboutMe&gt</b>
+          </header>
+          <br />
+          <section class="about-text">
+            <div class="aboutImage">
+              <!-- <img src="assets/images/about.png" alt="" /> -->
+            </div>
+
+            <p style="color: #4eb99f">
+              Hey! I am <b>Sawant Gorakh Rambhau</b>. I'm Computer Science
+              student, pursing Bachelor of Computer Science from K.K.Wagh ACS &
+              CS College, Nashik.
+            </p>
+            <p style="color: #c5a12b">
+              With a strong emphasis on "Progressive Enhancement", I look for
+              creative ways to push the boundaries to learn new things
+            </p>
+          
+            <br />
+            <b style="font-size: 20px; color: aqua">&lt/ aboutMe &gt</b>
+          </section>
+
+          <!--
+          - skills
+        -->
+
+          <section class="skills">
+            <header>
+              <p></p>
+              <b style="font-size: 20px; color: aqua">&lt MySkills &gt</b>
+            </header>
+            <br />
+
+            <!-- <ul class="skills-list"> -->
+              <li class="skills-item">
+                <div class="skills-icon-box">
+                  <ion-icon style="color: yellow" name="code-slash-outline"></ion-icon>
+                 
+                </div>
+
+                <div class="skills-content-box">
+                  <h4 class="h4 skills-item-title">C, C++, Java, Python, PHP, HTML, CSS, JS, Bootstrap 4</h4>
+
+
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="skills-icon-box">
+                  <ion-icon style="color: yellow" name="extension-puzzle-outline"></ion-icon>
+                </div>
+
+                <div class="skills-content-box">
+                  <h4 class="h4 skills-item-title">Operating System:<br>
+                    Windows, Linux
+                  </h4>
+
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="skills-icon-box">
+                  <ion-icon style="color: yellow" name="extension-puzzle-outline"></ion-icon>
+                </div>
+
+                <div class="skills-content-box">
+                  <h4 class="h4 skills-item-title">Software Tools:
+                    <br> Pycharm, VS code, Google Colab, MS Excel, PowerPoint, Word</h4>
+
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="skills-icon-box">
+                  <ion-icon style="color: yellow"  name="book-outline"></ion-icon>
+                </div>
+
+                <div class="skills-content-box">
+                  <h4 class="h4 skills-item-title">Soft Skills	
+<br>
+                    • Commitment to Training and Learning <br>
+                    • Ability to manage and prioritize time</h4>
+
+                  
+                </div>
+              </li>
+
+             
+            </ul>
+            <br />
+            <b style="font-size: 20px; color: aqua">&lt /MySkills &gt</b>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </section>
+          </div>
+
+          <!--
+          - Courses
+        -->
+
+          <section class="courses">
+            <b style="font-size: 20px; color: aqua">&lt Courses &gt</b>
+
+            <br />
+
+            <ul class="skills-list">
+              <li class="skills-item">
+                <div class="skills-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+              "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="skills-content-box">
+                  <h4 class="h4 skills-item-title">C++</h4>
+f
+                  <p class="skills-item-text">
+                    Did C++ from CodeHelp - By Love Babbar from YouTube Channel
+                  </p>
+                  <br />
+                  <p>
+                    <a style="color: rgb(101, 216, 252)"
+                      href="https://www.youtube.com/watch?v=WQoB2z67hvY&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&ab_channel=CodeHelp-byBabbar"
+                      >CodeHelp - by Babbar</a
+                    >
+                  </p>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="skills-icon-box">
+                  <ion-icon style="color: yellow" name="logo-python"></ion-icon>
+                </div>
+
+                <div class="skills-content-box">
+                  <h4 class="h4 skills-item-title">Python</h4>
+
+                  <p class="skills-item-text">
+                    Basics of Python
+                    <a
+                      style="color: rgb(101, 216, 252)"
+                      href="https://www.udemy.com/course/100-days-of-code/"
+                      >100 Days of Code: The Complete Python Pro Bootcamp</a
+                    >
+                  </p>
+                </div>
+              </li>
+                <li class="skills-item">
+                  <div class="skills-icon-box">
+                    <ion-icon
+                      style="color: yellow"
+                      name="logo-python"
+                    ></ion-icon>
+                  </div>
+
+                  <div class="skills-content-box">
+                    <h4 class="h4 skills-item-title">HTMl5, CSS, JS</h4>
+
+                    <p class="skills-item-text">
+                      Basic knowlege of HTML, CSS, Javascript
+                      <a
+                        style="color: rgb(101, 216, 252)"
+                        href="https://www.coursera.org/learn/html-css-javascript-for-web-developers?"
+                        >HTML, CSS, and Javascript for Web Developers <a</a
+                      >
+                    </p>
+                  </div>
+                </li>
+            </ul><br>
+            <b style="font-size: 20px; color: aqua">&lt /Courses &gt</b>
+
+          </section>
+          <b style="font-size: 20px; color: aqua">&lt EducationalDetails &gt</b>
+
+          <br /><br>
+
+          <section class="timeline">
+           
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                 K.K.Wagh ACS & CS College, Nashik
+                </h4>
+
+                <span>2019 — 2022</span>
+
+                <p class="timeline-text">
+                 Bachelor of Computer Science 
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">SMV College, Yeola</h4>
+
+                <span>2018 — 2019</span>
+
+                <p class="timeline-text">
+                  HSC
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  New English School, Talwade, Yeola
+                </h4>
+
+                <span>2016 — 2017</span>
+
+                <p class="timeline-text">
+                  SSC
+                </p>
+              </li>
+            </ol>
+          </section>
+          <b style="font-size: 20px; color: aqua">&lt /EducationalDetails &gt</b>
+
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                 K.K.Wagh ACS & CS College, Nashik
+                </h4>
+
+                <span>2019 — 2022</span>
+
+                <p class="timeline-text">
+                 Bachelor of Computer Science 
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">SMV College, Yeola</h4>
+
+                <span>2018 — 2019</span>
+
+                <p class="timeline-text">
+                  HSC
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  New English School, Talwade, Yeola
+                </h4>
+
+                <span>2016 — 2017</span>
+
+                <p class="timeline-text">
+                  SSC
+                </p>
+              </li>
+            </ol>
+          </section>
+
+        
+
+          
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        
+
+          <section class="projects">
+  
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                
+              </button>
+    
+            </div>
+
+            
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        
+
+       
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
